@@ -10,7 +10,7 @@ Example usage of Next.js with theme-ui
 
 ## issues
 Currently you get a warning if your cookie is set to darkmode:
-`index.esm.js:431 The `initialColorMode` value should be a unique nameand cannot reference a key in `theme.colors.modes``
+> index.esm.js:431 The `initialColorMode` value should be a unique nameand cannot reference a key in `theme.colors.modes`
 
 I believe that this is ~the only way to initilize the color mode correctly with a cookie on the server, so perhaps the warning is overly aggressive.
 
